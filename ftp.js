@@ -93,24 +93,3 @@ function uploadFolder(folder, ftp_conf) {
         }
     });
 }
-
-uploadFolder("F:\\HMCL\\.minecraft", {
-    host: "192.168.3.30",
-    port: 2121,
-    user: "hxgfk",
-    password: "123456",
-    target: "MinecraftLauncherData/.minecraft"
-})
-/*
-let cli = new ftp();
-cli.on('ready', () => {
-    cli.put("F:\\HMCL\\hmcl.json", "MinecraftLauncherData/hmcl.json", err=>{})
-    cli.end();
-});
-cli.connect( {
-    host: "192.168.3.30",
-    port: 2121,
-    user: "hxgfk",
-    password: "123456",
-    target: "MinecraftLauncherData\\.minecraft"
-});*/
